@@ -1,7 +1,7 @@
 # SwiftUI-Pokedex
-
 Create a Pokedex feature inside the BYU mobile app using SwiftUI.
-![Bulbasaur]("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png")
+
+Note: Use iOS 14 for the minimum target to take advantage of .onChange() and @StateObject
 ## Requirements:
 - [ ] Create new branch off of dev
 - [ ] Create Storyboard and UIHostingController to get to initial SwiftUI view
@@ -16,7 +16,7 @@ Create a Pokedex feature inside the BYU mobile app using SwiftUI.
     }
     ````
     - [ ] Create a storyboard and place a "HostingViewController" in it
-    - [ ] Create a class like the one below that inherits from [UIHostingController]((https://developer.apple.com/documentation/swiftui/uihostingcontroller))
+    - [ ] Create a class like the one below that inherits from [UIHostingController](https://developer.apple.com/documentation/swiftui/uihostingcontroller)
      ````
     import Foundation
     import SwiftUI
@@ -32,10 +32,10 @@ Create a Pokedex feature inside the BYU mobile app using SwiftUI.
 - [ ] Display all Pokemon from Pokemon API in a [list](https://www.hackingwithswift.com/quick-start/swiftui/building-a-menu-using-list)
     - [ ] display a nagivation title
     - [ ] be able to search all pokemon by name
-    - [ ] [each row must be clickable and use a navigation link to navigate to detailed view]((https://www.hackingwithswift.com/articles/216/complete-guide-to-navigationview-in-swiftui))
+    - [ ] [each row must be clickable and use a navigation link to navigate to detailed view](https://www.hackingwithswift.com/articles/216/complete-guide-to-navigationview-in-swiftui)
     - [ ] use a list view model to handle searching, client calls, and other non-view operations 
     - [ ] [use the codable protocol on model objects with the json decoder](https://www.hackingwithswift.com/read/7/3/parsing-json-using-the-codable-protocol)
-    - [ ] [use @Published property wrapper to publish changes in model object data to view]((https://www.hackingwithswift.com/quick-start/swiftui/whats-the-difference-between-observedobject-state-and-environmentobject)) 
+    - [ ] [use @Published property wrapper to publish changes in model object data to view](https://www.hackingwithswift.com/quick-start/swiftui/whats-the-difference-between-observedobject-state-and-environmentobject)
 - [ ] Display an individual Pokemon in a detailed view
   - [ ] display the pokemons name
   - [ ] display the pokemon's image
